@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F790775F270B961200FBA70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F790775E270B961200FBA70C /* AppDelegate.swift */; };
+		F7907761270B961200FBA70C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907760270B961200FBA70C /* SceneDelegate.swift */; };
+		F7907763270B961200FBA70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907762270B961200FBA70C /* ViewController.swift */; };
+		F7907766270B961200FBA70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7907764270B961200FBA70C /* Main.storyboard */; };
+		F7907768270B961300FBA70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7907767270B961300FBA70C /* Assets.xcassets */; };
+		F790776B270B961300FBA70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7907769270B961300FBA70C /* LaunchScreen.storyboard */; };
+		F7907776270B961300FBA70C /* SpeedyMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907775270B961300FBA70C /* SpeedyMathTests.swift */; };
+		F7907780270B961300FBA70C /* SpeedyMathUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F790777F270B961300FBA70C /* SpeedyMathUITests.swift */; };
+		F7907782270B961300FBA70C /* SpeedyMathUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907781270B961300FBA70C /* SpeedyMathUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7907772270B961300FBA70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7907753270B961200FBA70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F790775A270B961200FBA70C;
+			remoteInfo = SpeedyMath;
+		};
+		F790777C270B961300FBA70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7907753270B961200FBA70C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F790775A270B961200FBA70C;
+			remoteInfo = SpeedyMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F790775B270B961200FBA70C /* SpeedyMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedyMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F790775E270B961200FBA70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7907760270B961200FBA70C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7907762270B961200FBA70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7907765270B961200FBA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7907767270B961300FBA70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F790776A270B961300FBA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F790776C270B961300FBA70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7907771270B961300FBA70C /* SpeedyMathTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedyMathTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7907775270B961300FBA70C /* SpeedyMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedyMathTests.swift; sourceTree = "<group>"; };
+		F790777B270B961300FBA70C /* SpeedyMathUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedyMathUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F790777F270B961300FBA70C /* SpeedyMathUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedyMathUITests.swift; sourceTree = "<group>"; };
+		F7907781270B961300FBA70C /* SpeedyMathUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedyMathUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7907758270B961200FBA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F790776E270B961300FBA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7907778270B961300FBA70C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7907752270B961200FBA70C = {
+			isa = PBXGroup;
+			children = (
+				F790775D270B961200FBA70C /* SpeedyMath */,
+				F7907774270B961300FBA70C /* SpeedyMathTests */,
+				F790777E270B961300FBA70C /* SpeedyMathUITests */,
+				F790775C270B961200FBA70C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F790775C270B961200FBA70C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F790775B270B961200FBA70C /* SpeedyMath.app */,
+				F7907771270B961300FBA70C /* SpeedyMathTests.xctest */,
+				F790777B270B961300FBA70C /* SpeedyMathUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F790775D270B961200FBA70C /* SpeedyMath */ = {
+			isa = PBXGroup;
+			children = (
+				F790775E270B961200FBA70C /* AppDelegate.swift */,
+				F7907760270B961200FBA70C /* SceneDelegate.swift */,
+				F7907762270B961200FBA70C /* ViewController.swift */,
+				F7907764270B961200FBA70C /* Main.storyboard */,
+				F7907767270B961300FBA70C /* Assets.xcassets */,
+				F7907769270B961300FBA70C /* LaunchScreen.storyboard */,
+				F790776C270B961300FBA70C /* Info.plist */,
+			);
+			path = SpeedyMath;
+			sourceTree = "<group>";
+		};
+		F7907774270B961300FBA70C /* SpeedyMathTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7907775270B961300FBA70C /* SpeedyMathTests.swift */,
+			);
+			path = SpeedyMathTests;
+			sourceTree = "<group>";
+		};
+		F790777E270B961300FBA70C /* SpeedyMathUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F790777F270B961300FBA70C /* SpeedyMathUITests.swift */,
+				F7907781270B961300FBA70C /* SpeedyMathUITestsLaunchTests.swift */,
+			);
+			path = SpeedyMathUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F790775A270B961200FBA70C /* SpeedyMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7907785270B961300FBA70C /* Build configuration list for PBXNativeTarget "SpeedyMath" */;
+			buildPhases = (
+				F7907757270B961200FBA70C /* Sources */,
+				F7907758270B961200FBA70C /* Frameworks */,
+				F7907759270B961200FBA70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedyMath;
+			productName = SpeedyMath;
+			productReference = F790775B270B961200FBA70C /* SpeedyMath.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7907770270B961300FBA70C /* SpeedyMathTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7907788270B961300FBA70C /* Build configuration list for PBXNativeTarget "SpeedyMathTests" */;
+			buildPhases = (
+				F790776D270B961300FBA70C /* Sources */,
+				F790776E270B961300FBA70C /* Frameworks */,
+				F790776F270B961300FBA70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7907773270B961300FBA70C /* PBXTargetDependency */,
+			);
+			name = SpeedyMathTests;
+			productName = SpeedyMathTests;
+			productReference = F7907771270B961300FBA70C /* SpeedyMathTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F790777A270B961300FBA70C /* SpeedyMathUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F790778B270B961300FBA70C /* Build configuration list for PBXNativeTarget "SpeedyMathUITests" */;
+			buildPhases = (
+				F7907777270B961300FBA70C /* Sources */,
+				F7907778270B961300FBA70C /* Frameworks */,
+				F7907779270B961300FBA70C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F790777D270B961300FBA70C /* PBXTargetDependency */,
+			);
+			name = SpeedyMathUITests;
+			productName = SpeedyMathUITests;
+			productReference = F790777B270B961300FBA70C /* SpeedyMathUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7907753270B961200FBA70C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F790775A270B961200FBA70C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F7907770270B961300FBA70C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F790775A270B961200FBA70C;
+					};
+					F790777A270B961300FBA70C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F790775A270B961200FBA70C;
+					};
+				};
+			};
+			buildConfigurationList = F7907756270B961200FBA70C /* Build configuration list for PBXProject "SpeedyMath" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7907752270B961200FBA70C;
+			productRefGroup = F790775C270B961200FBA70C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F790775A270B961200FBA70C /* SpeedyMath */,
+				F7907770270B961300FBA70C /* SpeedyMathTests */,
+				F790777A270B961300FBA70C /* SpeedyMathUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7907759270B961200FBA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F790776B270B961300FBA70C /* LaunchScreen.storyboard in Resources */,
+				F7907768270B961300FBA70C /* Assets.xcassets in Resources */,
+				F7907766270B961200FBA70C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F790776F270B961300FBA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7907779270B961300FBA70C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7907757270B961200FBA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7907763270B961200FBA70C /* ViewController.swift in Sources */,
+				F790775F270B961200FBA70C /* AppDelegate.swift in Sources */,
+				F7907761270B961200FBA70C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F790776D270B961300FBA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7907776270B961300FBA70C /* SpeedyMathTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7907777270B961300FBA70C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7907782270B961300FBA70C /* SpeedyMathUITestsLaunchTests.swift in Sources */,
+				F7907780270B961300FBA70C /* SpeedyMathUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7907773270B961300FBA70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F790775A270B961200FBA70C /* SpeedyMath */;
+			targetProxy = F7907772270B961300FBA70C /* PBXContainerItemProxy */;
+		};
+		F790777D270B961300FBA70C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F790775A270B961200FBA70C /* SpeedyMath */;
+			targetProxy = F790777C270B961300FBA70C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7907764270B961200FBA70C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7907765270B961200FBA70C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7907769270B961300FBA70C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F790776A270B961300FBA70C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7907783270B961300FBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7907784270B961300FBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7907786270B961300FBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedyMath/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yee.deanna.SpeedyMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7907787270B961300FBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedyMath/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yee.deanna.SpeedyMath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7907789270B961300FBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yee.deanna.SpeedyMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedyMath.app/SpeedyMath";
+			};
+			name = Debug;
+		};
+		F790778A270B961300FBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yee.deanna.SpeedyMathTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedyMath.app/SpeedyMath";
+			};
+			name = Release;
+		};
+		F790778C270B961300FBA70C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yee.deanna.SpeedyMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedyMath;
+			};
+			name = Debug;
+		};
+		F790778D270B961300FBA70C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W6NQHWJ977;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yee.deanna.SpeedyMathUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedyMath;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7907756270B961200FBA70C /* Build configuration list for PBXProject "SpeedyMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7907783270B961300FBA70C /* Debug */,
+				F7907784270B961300FBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7907785270B961300FBA70C /* Build configuration list for PBXNativeTarget "SpeedyMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7907786270B961300FBA70C /* Debug */,
+				F7907787270B961300FBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7907788270B961300FBA70C /* Build configuration list for PBXNativeTarget "SpeedyMathTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7907789270B961300FBA70C /* Debug */,
+				F790778A270B961300FBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F790778B270B961300FBA70C /* Build configuration list for PBXNativeTarget "SpeedyMathUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F790778C270B961300FBA70C /* Debug */,
+				F790778D270B961300FBA70C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7907753270B961200FBA70C /* Project object */;
+}
