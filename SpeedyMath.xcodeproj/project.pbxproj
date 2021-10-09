@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F727203227100BCE000B2DC6 /* CinzelDecorative-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F727202E27100BCE000B2DC6 /* CinzelDecorative-Black.ttf */; };
+		F727203327100BCE000B2DC6 /* CinzelDecorative-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F727202F27100BCE000B2DC6 /* CinzelDecorative-Bold.ttf */; };
+		F727203527100BCE000B2DC6 /* CinzelDecorative-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F727203127100BCE000B2DC6 /* CinzelDecorative-Regular.ttf */; };
+		F727203B27113651000B2DC6 /* TitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F727203A27113651000B2DC6 /* TitleView.xib */; };
+		F72720402711407D000B2DC6 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = F727203F2711407D000B2DC6 /* UIView+Nib.swift */; };
+		F727204227114208000B2DC6 /* NibWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F727204127114208000B2DC6 /* NibWrapperView.swift */; };
+		F7272044271144A1000B2DC6 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7272043271144A1000B2DC6 /* TitleView.swift */; };
 		F790775F270B961200FBA70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F790775E270B961200FBA70C /* AppDelegate.swift */; };
 		F7907761270B961200FBA70C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907760270B961200FBA70C /* SceneDelegate.swift */; };
-		F7907763270B961200FBA70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907762270B961200FBA70C /* ViewController.swift */; };
+		F7907763270B961200FBA70C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7907762270B961200FBA70C /* LoginViewController.swift */; };
 		F7907766270B961200FBA70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7907764270B961200FBA70C /* Main.storyboard */; };
 		F7907768270B961300FBA70C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7907767270B961300FBA70C /* Assets.xcassets */; };
 		F790776B270B961300FBA70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7907769270B961300FBA70C /* LaunchScreen.storyboard */; };
@@ -36,10 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F727202E27100BCE000B2DC6 /* CinzelDecorative-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CinzelDecorative-Black.ttf"; sourceTree = "<group>"; };
+		F727202F27100BCE000B2DC6 /* CinzelDecorative-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CinzelDecorative-Bold.ttf"; sourceTree = "<group>"; };
+		F727203127100BCE000B2DC6 /* CinzelDecorative-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CinzelDecorative-Regular.ttf"; sourceTree = "<group>"; };
+		F727203A27113651000B2DC6 /* TitleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleView.xib; sourceTree = "<group>"; };
+		F727203F2711407D000B2DC6 /* UIView+Nib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Nib.swift"; sourceTree = "<group>"; };
+		F727204127114208000B2DC6 /* NibWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibWrapperView.swift; sourceTree = "<group>"; };
+		F7272043271144A1000B2DC6 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		F790775B270B961200FBA70C /* SpeedyMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedyMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F790775E270B961200FBA70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7907760270B961200FBA70C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F7907762270B961200FBA70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7907762270B961200FBA70C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F7907765270B961200FBA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7907767270B961300FBA70C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F790776A270B961300FBA70C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +90,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F70AD9E227114A7900C3558A /* TitleView */ = {
+			isa = PBXGroup;
+			children = (
+				F7272043271144A1000B2DC6 /* TitleView.swift */,
+				F727203A27113651000B2DC6 /* TitleView.xib */,
+			);
+			path = TitleView;
+			sourceTree = "<group>";
+		};
+		F70AD9E327114D1C00C3558A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7907762270B961200FBA70C /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F7272028270FFE30000B2DC6 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F727202D27100BCE000B2DC6 /* Cinzel_Decorative */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F727202D27100BCE000B2DC6 /* Cinzel_Decorative */ = {
+			isa = PBXGroup;
+			children = (
+				F727202E27100BCE000B2DC6 /* CinzelDecorative-Black.ttf */,
+				F727202F27100BCE000B2DC6 /* CinzelDecorative-Bold.ttf */,
+				F727203127100BCE000B2DC6 /* CinzelDecorative-Regular.ttf */,
+			);
+			path = Cinzel_Decorative;
+			sourceTree = "<group>";
+		};
+		F727203C27113F3A000B2DC6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F70AD9E227114A7900C3558A /* TitleView */,
+				F727203F2711407D000B2DC6 /* UIView+Nib.swift */,
+				F727204127114208000B2DC6 /* NibWrapperView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F7907752270B961200FBA70C = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +158,11 @@
 		F790775D270B961200FBA70C /* SpeedyMath */ = {
 			isa = PBXGroup;
 			children = (
+				F70AD9E327114D1C00C3558A /* Controllers */,
+				F727203C27113F3A000B2DC6 /* Views */,
+				F7272028270FFE30000B2DC6 /* fonts */,
 				F790775E270B961200FBA70C /* AppDelegate.swift */,
 				F7907760270B961200FBA70C /* SceneDelegate.swift */,
-				F7907762270B961200FBA70C /* ViewController.swift */,
 				F7907764270B961200FBA70C /* Main.storyboard */,
 				F7907767270B961300FBA70C /* Assets.xcassets */,
 				F7907769270B961300FBA70C /* LaunchScreen.storyboard */,
@@ -231,9 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F727203327100BCE000B2DC6 /* CinzelDecorative-Bold.ttf in Resources */,
 				F790776B270B961300FBA70C /* LaunchScreen.storyboard in Resources */,
+				F727203B27113651000B2DC6 /* TitleView.xib in Resources */,
 				F7907768270B961300FBA70C /* Assets.xcassets in Resources */,
 				F7907766270B961200FBA70C /* Main.storyboard in Resources */,
+				F727203227100BCE000B2DC6 /* CinzelDecorative-Black.ttf in Resources */,
+				F727203527100BCE000B2DC6 /* CinzelDecorative-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7907763270B961200FBA70C /* ViewController.swift in Sources */,
+				F72720402711407D000B2DC6 /* UIView+Nib.swift in Sources */,
+				F7907763270B961200FBA70C /* LoginViewController.swift in Sources */,
 				F790775F270B961200FBA70C /* AppDelegate.swift in Sources */,
+				F727204227114208000B2DC6 /* NibWrapperView.swift in Sources */,
 				F7907761270B961200FBA70C /* SceneDelegate.swift in Sources */,
+				F7272044271144A1000B2DC6 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

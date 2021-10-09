@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CinzelDecorative-Bold.ttf">
+            <string>CinzelDecorative-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TitleView" customModule="SpeedyMath" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="243"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="GBf-jH-R09">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="243"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SPEEDY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ag9-cM-sgG">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="121.5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="CinzelDecorative-Bold" family="Cinzel Decorative" pointSize="90"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=compact">
+                                <fontDescription key="fontDescription" name="CinzelDecorative-Bold" family="Cinzel Decorative" pointSize="48"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MATH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aEd-3N-TZz">
+                            <rect key="frame" x="0.0" y="121.5" width="414" height="121.5"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" name="CinzelDecorative-Bold" family="Cinzel Decorative" pointSize="90"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="heightClass=compact">
+                                <fontDescription key="fontDescription" name="CinzelDecorative-Bold" family="Cinzel Decorative" pointSize="48"/>
+                            </variation>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="GBf-jH-R09" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="UaC-vk-Wqt"/>
+                <constraint firstItem="GBf-jH-R09" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="hZA-SP-lUE"/>
+                <constraint firstItem="GBf-jH-R09" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="xTV-78-aQM"/>
+                <constraint firstItem="GBf-jH-R09" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="yhd-4G-bii"/>
+                <constraint firstItem="GBf-jH-R09" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="z2y-ne-kWm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="79.710144927536234" y="-95.424107142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
